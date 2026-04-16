@@ -1,4 +1,3 @@
-# syntax=docker/dockerfile:1.4
 FROM rust:1.75-bookworm AS builder
 
 # Install required dependencies
