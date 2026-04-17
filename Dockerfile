@@ -1,7 +1,7 @@
 FROM rust:bookworm AS builder
 
 # Install required dependencies
-RUN apt-get update && apt-get install -y cmake pkg-config libssl-dev clang
+RUN apt-get update && apt-get install -y cmake pkg-config libssl-dev clang protobuf-compiler
 
 WORKDIR /usr/src/atlas
 
